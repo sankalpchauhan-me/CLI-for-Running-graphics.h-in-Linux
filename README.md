@@ -2,7 +2,7 @@
 
 ## Installation Guide
 * Clone/Download This Repository and Extract to a location.
-* Open the Folder and give following permissions:- **chmod 777 LIBinstaller.sh**
+* Open the Folder and give following permissions using terminal:- **chmod 777 LIBinstaller.sh**
 * Run LIBinstaller.sh by using the terminal. Command is:- "**./LIBinstaller.sh**"
 
 * Download [libgraph-1.0.2.tar.gz](http://download.savannah.gnu.org/releases/libgraph/libgraph-1.0.2.tar.gz) tar file.
