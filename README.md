@@ -11,7 +11,7 @@
 
 * **Copy and Paste SDLinstaller to that folder** and give permissions:- **chmod 777 SDLinstaller.sh**
 * Now In that terminal  Run SDLinstaller.sh by using the terminal. Command is:- "**./SDLinstaller.sh**"
-* Now any C/C++ file can use graphics.h by appending the -lgraph (eg:- **gcc demo.c -lgraph** 
+* Now any C/C++ file can use graphics.h by appending the -lgraph (eg:- **gcc demo.c -lgraph**)
 
 * If "shared folder" error occurs use the command present in ERROR RESOLVE Folder. For any other error refer [here](https://garimagoswami.wordpress.com/2011/11/16/running-graphics-programs-in-ubuntu/)
 
