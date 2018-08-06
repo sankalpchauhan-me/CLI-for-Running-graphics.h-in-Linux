@@ -2,13 +2,14 @@
 
 ## Installation Guide
 * Clone/Download This Repository and Extract to a location.
+* Open the Folder and give following permissions:- **chmod 777 LIBinstaller**
 * Run LIBinstaller.sh by using the terminal. Command is:- "**./LIBinstaller.sh**"
 
 * Download [libgraph-1.0.2.tar.gz](http://download.savannah.gnu.org/releases/libgraph/libgraph-1.0.2.tar.gz) tar file.
 * Extract the libgraph-1.0.2.tar.gz tar file in Home.
 * Move to libgraph-1.0.2 directory and open terminal in the same folder (Right Click -> Open In Terminal)
 
-* In that terminal Run SDLinstaller.sh by using the terminal. Command is:- "**./SDLinstaller.sh**"
+* **Copy and Paste SDLinstaller to that folder** Now In that terminal  Run SDLinstaller.sh by using the terminal. Command is:- "**./SDLinstaller.sh**"
 * Now any C/C++ file can use graphics.h by appending the -lgraph (eg:- **gcc demo.c -lgraph** 
 
 * If "shared folder" error occurs use the command present in ERROR RESOLVE Folder. For any other error refer [here](https://garimagoswami.wordpress.com/2011/11/16/running-graphics-programs-in-ubuntu/)
