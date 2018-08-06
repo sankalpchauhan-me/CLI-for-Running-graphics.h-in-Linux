@@ -2,14 +2,14 @@
 
 ## Installation Guide
 * Clone/Download This Repository and Extract to a location.
-* Open the Folder and give following permissions:- **chmod 777 LIBinstaller**
+* Open the Folder and give following permissions:- **chmod 777 LIBinstaller.sh**
 * Run LIBinstaller.sh by using the terminal. Command is:- "**./LIBinstaller.sh**"
 
 * Download [libgraph-1.0.2.tar.gz](http://download.savannah.gnu.org/releases/libgraph/libgraph-1.0.2.tar.gz) tar file.
 * Extract the libgraph-1.0.2.tar.gz tar file in Home.
 * Move to libgraph-1.0.2 directory and open terminal in the same folder (Right Click -> Open In Terminal)
 
-* **Copy and Paste SDLinstaller to that folder** and give permissions:- **chmod 777 SDLinstaller**
+* **Copy and Paste SDLinstaller to that folder** and give permissions:- **chmod 777 SDLinstaller.sh**
 * Now In that terminal  Run SDLinstaller.sh by using the terminal. Command is:- "**./SDLinstaller.sh**"
 * Now any C/C++ file can use graphics.h by appending the -lgraph (eg:- **gcc demo.c -lgraph** 
 
