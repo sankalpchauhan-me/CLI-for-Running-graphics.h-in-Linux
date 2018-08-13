@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo cp /usr/local/lib/libgraph.* /usr/lib
+sudo ldconfig -v
 
