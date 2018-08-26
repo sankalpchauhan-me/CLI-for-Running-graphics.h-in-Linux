@@ -24,7 +24,8 @@ echo
 # Second Command
 #sudo apt-get install libsdl-image1.2 libsdl-image1.2-dev guile-1.8   guile-1.8-dev libsdl1.2debian libart-2.0-dev libaudiofile-dev   libesd0-dev libdirectfb-dev libdirectfb-extra libfreetype6-dev   libxext-dev x11proto-xext-dev libfreetype6 libaa1 libaa1-dev   libslang2-dev libasound2 libasound2-dev
 # Adding Guile 2.0 istead of 1.8 as guile 1.8 is depreceated in Ubuntu 18.04 (bionic beever)
-sudo apt-get install libsdl-image1.2 libsdl-image1.2-dev guile-2.0   guile-2.0-dev libsdl1.2debian libart-2.0-dev libaudiofile-dev   libesd0-dev libdirectfb-dev libdirectfb-extra libfreetype6-dev   libxext-dev x11proto-xext-dev libfreetype6 libaa1 libaa1-dev   libslang2-dev libasound2 libasound2-dev
+#Removing package libesd0-dev because it is depreceated in Ubuntu 18.04 (bionic beever)
+sudo apt-get install libsdl-image1.2 libsdl-image1.2-dev guile-2.0   guile-2.0-dev libsdl1.2debian libart-2.0-dev libaudiofile-dev libdirectfb-dev libdirectfb-extra libfreetype6-dev   libxext-dev x11proto-xext-dev libfreetype6 libaa1 libaa1-dev   libslang2-dev libasound2 libasound2-dev
 # END
 
 echo 
